@@ -30,6 +30,17 @@ const getAllSalaReuniones = async ()=> {
       <img src={sala?.imagen} alt="sala" width={700}></img> 
       <p>{sala?.name}</p>
       <p>{sala?.direccion}</p>
+      <div className='descripcion-horario'>
+        <p className='horarios'>{sala?.Horarios}</p>
+      </div>
+      
+      <div className='descripcion-texto'>
+        <p className='descripcion'>{sala?.Descripcion}</p>
+      </div>
+      
+      
+      
+      
       <a href='/formulario-reserva'><button className='boton-reserva'>Reservar Fecha/Horaa</button></a>
      
     </div>

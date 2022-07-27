@@ -31,6 +31,10 @@ const getAllOficina = async ()=> {
       <img src={office?.imagen} alt="oficina" width={700}></img>
       <p className='title-bold'>{office?.Name}</p>
       <p>{office?.Direccion}</p>
+      <div className='descripcion-horario'>
+        <p className='horarios'>{office?.Horarios}</p>
+      </div>
+      
       <div className='descripcion-texto'>
         <p className='descripcion'>{office?.Descripcion}</p>
       </div>

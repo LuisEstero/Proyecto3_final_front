@@ -42,7 +42,7 @@ nav {
   padding: 10px 20px;
   box-shadow: 0px 1px 2px gray;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 5px;
   
 }
@@ -134,7 +134,7 @@ nav li {
 }
 .boton_oficina{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -143,13 +143,13 @@ nav li {
   color: #fff;
   background-color: #4c8caf;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(75, 71, 71);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(75, 71, 71);
 }
 
 .boton-sala{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -158,8 +158,8 @@ nav li {
   color: #fff;
   background-color: #4c8caf;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(52, 50, 50);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(52, 50, 50);
 }
 .card-img, .card-img-bottom, .card-img-top {
   width: 100%;
@@ -168,7 +168,7 @@ nav li {
 
 .boton-reserva{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -177,12 +177,12 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-home{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -191,12 +191,12 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-oficina{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -205,13 +205,13 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 
 }
 .boton-nav-salas {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -220,13 +220,13 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-logout{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -235,13 +235,13 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-signup{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -250,12 +250,12 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-login{
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 22px;
   cursor: pointer;
   text-align: center;	
@@ -264,6 +264,6 @@ nav li {
   color: #fff;
   background-color: #48a870;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(73, 72, 72);
+  border-radius: 10px;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }

@@ -99,6 +99,8 @@ function App() {
 						</PrivateRoute>
 					}
 				/>
+					
+	
 			</Routes>
 
 			
