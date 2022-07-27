@@ -41,7 +41,7 @@ const getAllSalaReuniones = async ()=> {
       
       
       
-      <a href='/formulario-reserva'><button className='boton-reserva'>Reservar Fecha/Horaa</button></a>
+      <a href='/formulario-reserva'><button className='boton-reserva'>Reserve Date</button></a>
      
     </div>
   )

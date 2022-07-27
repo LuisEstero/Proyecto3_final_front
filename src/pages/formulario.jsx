@@ -8,6 +8,7 @@ const Container = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:center;
+text-align: center;
 `
 
 const Text = styled.p`
@@ -31,21 +32,27 @@ const OficinaPage = () => {
     
   return (
     <Container>
+      
         
         {/* {showText ? <Text colorText={color}>OficinaPage</Text> : <Text>el texto está oculto</Text>}
         <button onClick={() => setColor('red')}>Rojo</button>
         <button onClick={() => setColor('blue')}>Azul</button>
         <button onClick={() => setColor('green')}>Verde</button>
         <button onClick={() => setShowText(!showText)}>{showText ?'Ocultar Texto' : 'Mostrar Texto'}</button> */}
-<InputCustom value={book.salaName} handleChange={handleChange} type='text' legendName='Nombre de la Sala' name='salaName'/>
-<InputCustom value={book.nameUser} handleChange={handleChange} type='text' legendName='Nombre' name='nameUser'/>
-<InputCustom value={book.surnameUser} handleChange={handleChange} type='text' legendName='Apellidos' name='surnameUser'/>
-<InputCustom minDate={todayFormated} value={book.daySelected} handleChange={handleChange} type='date' legendName='Fecha' name='daySelected'/>
+<InputCustom value={book.salaName} handleChange={handleChange} type='text' legendName='Room Name' name='salaName'/>
+<InputCustom value={book.nameUser} handleChange={handleChange} type='text' legendName='Name' name='nameUser'/>
+<InputCustom value={book.surnameUser} handleChange={handleChange} type='text' legendName='Persons' name='surnameUser'/>
+<InputCustom minDate={todayFormated} value={book.daySelected} handleChange={handleChange} type='date' legendName='Date' name='daySelected'/>
+
+
+<a href='/formulario-reserva'><button className='boton-reserva'>Reserves </button></a>
+        
+
         </Container>
   )
 }
 
-//<a href='/reservas-realizadas'><button className='boton-reserva'>Reservado</button></a>
+
 
 
 export default OficinaPage

@@ -11,7 +11,7 @@ function BasicExample({name, direccion, imagen, _id}) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text> {direccion}</Card.Text>    
-        <p class="boton_oficina" onClick={() => navigation('/salaReserva',{ state:{id: _id}})}>Reserva</p>
+        <p class="boton_oficina" onClick={() => navigation('/salaReserva',{ state:{id: _id}})}>Reserves</p>
       </Card.Body>
     </Card>
   );

@@ -14,7 +14,7 @@ function ButtonOficina({Name, Direccion, imagen, _id }) {
       <Card.Body>
         <Card.Title>{Name}</Card.Title>
         <Card.Text> {Direccion}</Card.Text>
-        <p class="boton_oficina" onClick={() => navigation('/office-books',{ state:{id: _id}})}>Reserva</p>
+        <p class="boton_oficina" onClick={() => navigation('/office-books',{ state:{id: _id}})}>Reserves</p>
     
  
         

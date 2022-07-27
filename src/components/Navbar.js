@@ -14,13 +14,20 @@ function Navbar() {
         <button className="boton-nav-home">Home</button>
       </Link>
       <Link to="/oficina">
-        <button className="boton-nav-oficina">Oficina</button>
+        <button className="boton-nav-oficina">Office</button>
         
       </Link>
       <Link to="/salareuniones">
-        <button className="boton-nav-salas">Salas Reuniones</button>
-        
+        <button className="boton-nav-salas">Meeting Room</button>
+
+        </Link>
+      <Link to="/Reservas">
+        <button className="boton-nav-reserva">Reserves</button>
+      <img className="logo" src="/images/logo4.png"></img>
+    
       </Link>
+      
+      
 -
       {isLoggedIn
         ? (<>
@@ -28,7 +35,7 @@ function Navbar() {
               {/* <button>Reservas</button> */}
             </Link>
             <button className="boton-nav-logout" onClick={logOutUser}>Logout</button>
-            <span>Bienvenido: {user.name}</span>
+            <span className="bienvenido">Wellcome :  {user.name}</span>
           </>)
         : 
         (<>
