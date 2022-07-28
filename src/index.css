@@ -6,7 +6,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   margin: 0;
-  background-color:  #b5b6b8;
+  background-color:  #d0d5d5;
 }
 
 a {
@@ -17,9 +17,10 @@ a {
 button,
 select {
   margin: 19px;
-  padding: 5px 10px;
-  min-width: 50px;
+  padding: 10px 10px;
+  min-width: 100px;
   font-size: 18px;
+  background:#f8f8f8
   
   
 }
@@ -38,13 +39,13 @@ textarea {
 }
 
 nav {
-  background: #434341;
+  background: transparent;
   color: white;
-  
   box-shadow: 0px 1px 2px gray;
   width: 100%;
   margin-bottom: 10px;
   padding: 20px;
+  
   
 }
 
@@ -62,8 +63,9 @@ nav li {
   box-shadow: 0px 2px 3px rgba(42, 43, 43, 0.99);
   margin: 0 auto;
   margin-bottom: 20px;
-  background: #3d3e39;;
-  border-radius: 4px;
+  background: #959393;;
+  border-radius: 20px;
+  
 }
 
 .ProjectCard h3::after {
@@ -76,7 +78,7 @@ nav li {
 .AddTask,
 .SignupPage,
 .LoginPage {
-  background: #f9eec3;
+  background: #c0b674;
   border: 1px solid grey;
   box-shadow: 0px 2px 3px grey;
   width: 400px;
@@ -91,21 +93,54 @@ nav li {
   background-color: rgb(239, 196, 88);
 }
 
-.SignupPage,
-.LoginPage {
-  background-color:#cbcbdb;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 30px;
+.SignupPage{
+  top:200px;
+  left:35%;
+  display:block;
+  margin-bottom:80px;
+  width:360px;
+  height:560px;
+  background:#fff;
+  border-radius:5px;
+  overflow:hidden;
+  z-index:1;
+  padding:40px;
+  font-weight:lighter;
+  text-transform:uppercase;
+  color:#414141;
 }
-
 .LoginPage {
-  background-color: #cbcbdb;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 30px;
+  top:200px;
+  left:35%;
+  display:block;
+  margin-bottom:80px;
+  width:360px;
+  height:560px;
+  background:#fff;
+  border-radius:5px;
+  overflow:hidden;
+  z-index:1;
+  padding:40px;
+  font-weight:lighter;
+  text-transform:uppercase;
+  color:#414141;
+}
+.LoginPage {
+  top:200px;
+  left:35%;
+  display:block;
+  margin-bottom:80px;
+  width:360px;
+  height:360px;
+  background:#fff;
+  border-radius:5px;
+  overflow:hidden;
+  z-index:1;
+  padding:40px;
+  font-weight:lighter;
+  text-transform:uppercase;
+  color:#414141;
+  
 }
 
 .EditProjectPage form,
@@ -143,7 +178,7 @@ nav li {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4c8caf;
+  background-color: #d69a2a;
   border: none;
   border-radius: 10px;
   box-shadow: 0 5px rgb(75, 71, 71);
@@ -183,120 +218,162 @@ nav li {
   box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-home{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
+
 .boton-nav-oficina{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 
 }
 .boton-nav-salas {
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-logout{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-signup{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-login{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-reserva{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-reserva{
+  width: auto;
+  height: auto;
   display: inline-block;
-  padding: 10px 10px;
-  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  background-color: rgb(122, 171, 129);
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1rem;
   cursor: pointer;
-  text-align: center;	
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #48a870;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .bienvenido{
   font-size: 25px;
+  color: #000;
 }

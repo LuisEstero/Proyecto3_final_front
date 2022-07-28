@@ -23,7 +23,7 @@ function Navbar() {
         </Link>
       <Link to="/Reservas">
         <button className="boton-nav-reserva">Reserves</button>
-      <img className="logo" src="/images/logo4.png"></img>
+      <img className="logo" src="/images/logo5.png"></img>
     
       </Link>
       
