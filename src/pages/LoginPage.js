@@ -33,6 +33,7 @@ function LoginPage(props) {
 	return (
 		<div className="LoginPage">
 			<h1>Login</h1>
+			<img className="logo-login" src="/images/logo5.png"></img>
 
 			<form onSubmit={handleLoginSubmit}>
 				<label>Email:</label>

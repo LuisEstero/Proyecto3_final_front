@@ -34,6 +34,7 @@ function SignupPage(props) {
 	return (
 		<div className="SignupPage">
 			<h1>Sign Up</h1>
+			<img className="logo-signup" src="/images/logo5.png"></img>
 
 			<form onSubmit={handleSignupSubmit}>
 				<label>Email:</label>
