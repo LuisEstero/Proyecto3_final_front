@@ -65,6 +65,7 @@ nav li {
   margin-bottom: 20px;
   background: #959393;;
   border-radius: 20px;
+  border-radius: 2.5rem;
   
 }
 
@@ -108,6 +109,7 @@ nav li {
   font-weight:lighter;
   text-transform:uppercase;
   color:#414141;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .LoginPage {
   top:200px;
@@ -124,6 +126,7 @@ nav li {
   font-weight:lighter;
   text-transform:uppercase;
   color:#414141;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .LoginPage {
   top:200px;
@@ -140,6 +143,7 @@ nav li {
   font-weight:lighter;
   text-transform:uppercase;
   color:#414141;
+  box-shadow: 0 5px rgb(73, 72, 72);
   
 }
 
@@ -151,6 +155,7 @@ nav li {
   display: flex;
   flex-direction:column;
   align-items: center;
+  
 }
 
 .AddTask button,
@@ -160,6 +165,7 @@ nav li {
 
 .TaskCard {
   background-color: #dfeef9;
+  
 }
 
 .button-sala{
@@ -235,6 +241,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-oficina{
@@ -255,6 +262,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 
 }
 .boton-nav-salas {
@@ -275,6 +283,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-logout{
@@ -295,6 +304,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 
 .boton-nav-signup{
@@ -315,6 +325,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-login{
   width: auto;
@@ -334,6 +345,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-nav-reserva{
   width: auto;
@@ -353,6 +365,7 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .boton-reserva{
   width: auto;
@@ -372,8 +385,10 @@ nav li {
   letter-spacing: 0;
   line-height: 1rem;
   cursor: pointer;
+  box-shadow: 0 5px rgb(73, 72, 72);
 }
 .bienvenido{
   font-size: 25px;
   color: #000;
+  
 }
