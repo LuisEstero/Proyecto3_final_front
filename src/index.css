@@ -6,7 +6,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   margin: 0;
-  background-color:  #d0d5d5;
+  background-color:  #ffffff;
 }
 
 a {
@@ -21,7 +21,9 @@ select {
   min-width: 100px;
   font-size: 18px;
   background:#f8f8f8
-  
+}
+button:hover{
+  background-color: gold
   
 }
 
@@ -40,8 +42,8 @@ textarea {
 
 nav {
   background: transparent;
-  color: white;
-  box-shadow: 0px 1px 2px gray;
+  color: rgb(184, 183, 183);
+  
   width: 100%;
   margin-bottom: 10px;
   padding: 20px;
@@ -199,7 +201,7 @@ nav li {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4c8caf;
+  background-color: #efa134;
   border: none;
   border-radius: 10px;
   box-shadow: 0 5px rgb(52, 50, 50);
@@ -218,7 +220,7 @@ nav li {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #48a870;
+  background-color:#efa134;
   border: none;
   border-radius: 10px;
   box-shadow: 0 5px rgb(73, 72, 72);
@@ -242,6 +244,10 @@ nav li {
   line-height: 1rem;
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
+  
+}
+.boton-nav-home:hover{
+  background-color: gold;
 }
 
 .boton-nav-oficina{
@@ -265,6 +271,9 @@ nav li {
   box-shadow: 0 5px rgb(73, 72, 72);
 
 }
+.boton-nav-oficina:hover{
+  background-color: gold;
+}
 .boton-nav-salas {
   width: auto;
   height: auto;
@@ -284,6 +293,9 @@ nav li {
   line-height: 1rem;
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
+}
+.boton-nav-salas:hover{
+  background-color: gold
 }
 
 .boton-nav-logout{
@@ -306,6 +318,9 @@ nav li {
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
 }
+.boton-nav-logout:hover{
+  background-color: gold
+}
 
 .boton-nav-signup{
   width: auto;
@@ -327,6 +342,9 @@ nav li {
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
 }
+.boton-nav-signup:hover{
+  background-color: gold
+}
 .boton-nav-login{
   width: auto;
   height: auto;
@@ -346,6 +364,9 @@ nav li {
   line-height: 1rem;
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
+}
+.boton-nav-login:hover{
+  background-color: gold
 }
 .boton-nav-reserva{
   width: auto;
@@ -367,6 +388,9 @@ nav li {
   cursor: pointer;
   box-shadow: 0 5px rgb(73, 72, 72);
 }
+.boton-nav-reserva:hover{
+  background-color: gold
+}
 .boton-reserva{
   width: auto;
   height: auto;
@@ -379,7 +403,7 @@ nav li {
   font-weight: 500;
   border-radius: 2.5rem;
   border: 1px solid #000;
-  background-color: rgb(122, 171, 129);
+  background-color:#efa134 ;
   color: #000;
   font-size: 1rem;
   letter-spacing: 0;
