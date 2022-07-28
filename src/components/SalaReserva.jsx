@@ -27,9 +27,10 @@ const getAllSalaReuniones = async ()=> {
 
   return (
     <div>
-      <img src={sala?.imagen} alt="sala" width={700}></img> 
-      <p>{sala?.name}</p>
+      <img className='meeting' src={sala?.imagen} alt="sala" width={800}></img> 
+      <p className='title-bold'>{sala?.name}</p>
       <p>{sala?.direccion}</p>
+
       <div className='descripcion-horario'>
         <p className='horarios'>{sala?.Horarios}</p>
       </div>
