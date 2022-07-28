@@ -31,7 +31,7 @@ const OficinaPage = () => {
     console.log(book.daySelected)
     
   return (
-    <Container>
+    <Container className='formulario'>
       
         
         {/* {showText ? <Text colorText={color}>OficinaPage</Text> : <Text>el texto está oculto</Text>}

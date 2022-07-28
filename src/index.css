@@ -132,6 +132,26 @@ nav li {
   box-shadow: 0 5px rgb(73, 72, 72);
   
 }
+.formulario{
+  margin:0 auto;
+  top:200px;
+  left:35%;
+  display:block;
+  margin-bottom:80px;
+  width:460px;
+  height:760px;
+  background:rgba(169, 159, 140, 0.231);
+  border-radius:55px;
+  overflow:hidden;
+  z-index:1;
+  padding:40px;
+  font-weight:lighter;
+  text-transform:uppercase;
+  color:#414141;
+  box-shadow: 0 5px rgb(73, 72, 72);
+}
+
+
 
 .EditProjectPage form,
 .AddTask form,
