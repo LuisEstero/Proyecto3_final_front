@@ -37,8 +37,11 @@ const getAllSalaReuniones = async ()=> {
       <div className='descripcion-texto'>
         <p className='descripcion'>{sala?.Descripcion}</p>
       </div>
-      
-      
+
+      <div 
+      className='descripcion-precio'>
+      <p className='descripcion'>{sala?.Precio}</p> 
+      </div>
       
       
       <a href='/formulario-reserva'><button className='boton-reserva'>Reserve Date</button></a>

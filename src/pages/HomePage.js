@@ -2,7 +2,7 @@ function HomePage() {
   return (
     <div>
      
-     <img src="./images/Logo2.jpg" height={930} width={1515}></img>
+     <img src="./images/Logo2.jpg" height={800} width={1305}></img>
     </div>
   );
 }

@@ -41,11 +41,18 @@ const getAllOficina = async ()=> {
       className='descripcion-texto'>
       <p className='descripcion'>{office?.Descripcion}</p> 
       </div>
-      
+
+      <div 
+      className='descripcion-precio'>
+      <p className='descripcion'>{office?.Precio}</p> 
+      </div>
+          
       <a href='/formulario-reserva'><button className='boton-reserva'>Reserve Date</button></a>
-      
-    </div>
-    
+     
+ </div>
+   
+   
+   
   )
 }
 

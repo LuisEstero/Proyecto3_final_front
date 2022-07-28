@@ -21,13 +21,13 @@ color: ${props => props.colorText && props.colorText};
 const OficinaPage = () => {
     const [color, setColor] = useState('')
     const [showText, setShowText] = useState(false)
-    const [book , setBook] = useState({salaName:'', daySelected:'', nameUser:'', surnameUser:''})
+    const [book , setBook] = useState({salaName:'', daySelected:'', nameUser:'', surnameUser:'',emailUser:'',})
 
     const handleChange = ( e) => {
         setBook({...book, [e.target.name]: e.target.value})
     }
     const today = new Date()
-    const todayFormated = moment(today).format('YYYY-MM-DD')
+    const todayFormated = moment(today).format('yyyy-mm-dd')
     console.log(book.daySelected)
     
   return (
@@ -42,6 +42,7 @@ const OficinaPage = () => {
 <InputCustom value={book.salaName} handleChange={handleChange} type='text' legendName='Room Name' name='salaName'/>
 <InputCustom value={book.nameUser} handleChange={handleChange} type='text' legendName='Name' name='nameUser'/>
 <InputCustom value={book.surnameUser} handleChange={handleChange} type='text' legendName='Persons' name='surnameUser'/>
+<InputCustom value={book.emailUser} handleChange={handleChange} type='text' legendName='Email' name='emailUser'/>
 <InputCustom minDate={todayFormated} value={book.daySelected} handleChange={handleChange} type='date' legendName='Date' name='daySelected'/>
 
 
