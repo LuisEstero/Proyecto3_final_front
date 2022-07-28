@@ -45,7 +45,7 @@ function SignupPage(props) {
 				<label>Name:</label>
 				<input type="text" name="name" value={name} onChange={handleName} />
 
-				<button type="submit">Sign Up</button>
+				<button className='sign-up' type="submit">Sign Up</button>
 			</form>
 
 			{errorMessage && <p className="error-message">{errorMessage}</p>}
