@@ -1,51 +1,33 @@
-import {Button} from 'bootstrap';
-
+import { Button } from 'bootstrap'
 import React from 'react'
-import { useState, useEffect } from 'react';
-//import styled from '@emotion/styled'
-//import InputCustom from '../components/InputCustom'
-//import moment from 'moment'
-import { getSalaReunionesService } from '../services/salaReuniones.services';
-import ButtonSala from "../components/Button-Card"
-import { RowContainer } from './OficinaPage';
-//const Container = styled.div`
-//display:flex;
-//flex-direction:column;
-//justify-content:center;
-//`
+import { useState, useEffect } from 'react'
+import { getSalaReunionesService } from '../services/salaReuniones.services'
+import ButtonSala from '../components/Button-Card'
+import { RowContainer } from './OficinaPage'
 
-//const Text = styled.p`
-//display:flex;
-//flex-direction:column;
-//color: ${props => props.colorText && props.colorText};
-//`
-function SalaReunionesPage (){
-  const [salaReuniones , setSalaReuniones] = useState([]);
-  const getAllSalaReuniones = async ()=> {
+
+function SalaReunionesPage() {
+  const [salaReuniones, setSalaReuniones] = useState([])
+  const getAllSalaReuniones = async () => {
     try {
-      const response = await getSalaReunionesService();
+      const response = await getSalaReunionesService()
       console.log(response)
-      setSalaReuniones(response.data);
+      setSalaReuniones(response.data)
       console.log(response.data)
-      
-    }catch (err){
+    } catch (err) {
       console.log(err)
     }
   
   }
   useEffect(() => {
     getAllSalaReuniones()
-  }, []);
+  }, [])
   return (
     <RowContainer>
-      {salaReuniones.map((sala)=> {
-       return (
-       <ButtonSala  {...sala}/> 
-
-       )
-        
-      })} 
-    </RowContainer>   
+      {salaReuniones.map((sala) => {
+        return <ButtonSala {...sala} />
+      })}
+    </RowContainer>
   )
 }
 
